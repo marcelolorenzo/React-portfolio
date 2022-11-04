@@ -7,7 +7,7 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
-        return setTimeout(() => {
+         setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
     }, [])
@@ -21,7 +21,7 @@ const Contact = () => {
                             letterClass={letterClass}
                             strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
                         />
-                        idx={15}
+                        
                     </h1>
                     <p>
                         I am interested in freelance opportunities - especially on ambitious
